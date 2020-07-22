@@ -38,8 +38,6 @@ class Model {
                 if(response.items != nil) {
                     self.delegate?.videosFetched(response.items!)
                 }
-                
-                dump(response)
             } catch {
                 print("error")
             }

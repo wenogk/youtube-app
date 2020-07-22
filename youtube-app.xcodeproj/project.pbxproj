@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D10E8AF324C88740002542F4 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10E8AF224C88740002542F4 /* CacheManager.swift */; };
 		D1C46B2C24C6D5FB007519D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C46B2B24C6D5FB007519D9 /* AppDelegate.swift */; };
 		D1C46B2E24C6D5FB007519D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C46B2D24C6D5FB007519D9 /* SceneDelegate.swift */; };
 		D1C46B3024C6D5FB007519D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C46B2F24C6D5FB007519D9 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D10E8AF224C88740002542F4 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 		D1C46B2824C6D5FB007519D9 /* youtube-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C46B2B24C6D5FB007519D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1C46B2D24C6D5FB007519D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				D1C46B4124C6EF32007519D9 /* Constants.swift */,
+				D10E8AF224C88740002542F4 /* CacheManager.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1C46B3024C6D5FB007519D9 /* ViewController.swift in Sources */,
+				D10E8AF324C88740002542F4 /* CacheManager.swift in Sources */,
 				D1C46B2C24C6D5FB007519D9 /* AppDelegate.swift in Sources */,
 				D1C46B2E24C6D5FB007519D9 /* SceneDelegate.swift in Sources */,
 				D1C46B4624C720AF007519D9 /* Model.swift in Sources */,
