@@ -24,6 +24,15 @@ class Model {
                 return
             }
             //print(data)
+            let decoder = JSONDecoder();
+            
+            decoder.dateDecodingStrategy = .iso8601;
+            do {
+                let response = try decoder.decode(Response.self, from: data!)
+            } catch {
+                print("error")
+            }
+            
         }
         
         dataTask.resume()
